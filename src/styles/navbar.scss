@@ -1,0 +1,133 @@
+.navbar1 {
+  width: 100%;
+  height: 64px;
+  flex-grow: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  background-color: #1a202c;
+  border-bottom: 1px solid rgb(54, 54, 54);
+
+  .logo {
+    color: #1af3d6;
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  .right-content {
+    display: flex;
+    align-items: center;
+
+    .right-wrapper {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-right: 5px;
+
+      p {
+        color: white;
+        margin-left: 60px;
+      }
+      h3 {
+        color: #1af3d6;
+      }
+    }
+    button {
+      background-color: #1af3d6;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      border: none;
+      border-radius: 20px;
+      height: 30px;
+      width: 100px;
+      padding: 0px 15px 0px 15px;
+    }
+  }
+}
+
+.navbar2 {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  background-color: #1a202c;
+
+  p {
+    color: white;
+  }
+
+  .dots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    padding: 4px;
+    color: #1af3d6;
+    background-color: #383d50;
+  }
+}
+
+.dropdown {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: #1a202c;
+  border-radius: 7px;
+  padding: 20px 17px;
+  gap: 20px;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  transition: all var(500ms) ease;
+
+  .dropdown-item {
+    .item {
+      display: flex;
+      gap: 10px;
+      cursor: pointer;
+    }
+
+    div {
+      display: flex;
+      gap: 10px;
+      cursor: pointer;
+      color: white;
+    }
+
+    .dropdown-name {
+      color: white;
+      font-size: 1rem;
+    }
+
+    .dropdown-child {
+      margin-left: 40px;
+      margin-top: 10px;
+
+      .dropdown-item-child {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .notify {
+      width: 22px;
+      background-color: #1af3d6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #1a202c;
+      font-weight: 700;
+      border-radius: 50%;
+    }
+  }
+}
+
+.icon-lang {
+  width: 21px;
+  height: 20px;
+}
