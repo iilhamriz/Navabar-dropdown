@@ -29,7 +29,7 @@ const HomePage = () => {
             <SearchIcon />
           </div>
           <div className="dots" onClick={() => setOpen(!open)}>
-            <MoreVertIcon />
+            <MoreVertIcon style={{ color: open ?  '#1af3d6' : 'white'}} />
           </div>
         </div>
       </nav>
